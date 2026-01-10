@@ -7,7 +7,7 @@ class Solution {
   public:
     long long smallestpositive(vector<long long> array, int n) {
         // code here
-        int max =0;
+        long long max =0;
         sort(array.begin(),array.end());
         for(int i=0;i<n;i++){
             if(array[i]>max+1)break;
